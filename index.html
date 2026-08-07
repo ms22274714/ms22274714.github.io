@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Zhenhua Xue, an independent After Effects script developer building workflow automation tools for motion designers.">
+  <meta name="keywords" content="After Effects scripts, ExtendScript, ScriptUI, workflow automation, motion design tools, Zhenhua Xue">
+  <meta name="author" content="Zhenhua Xue">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b0e13">
+  <meta property="og:title" content="Zhenhua Xue — After Effects Script Developer">
+  <meta property="og:description" content="Practical workflow automation tools for Adobe After Effects.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <title>Zhenhua Xue — After Effects Script Developer</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Zhenhua Xue, home">
+        <span class="brand-mark" aria-hidden="true">ZX</span>
+        <span class="brand-text">Zhenhua Xue</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#tools">AE Tools</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Independent tool developer</p>
+          <h1 id="hero-title">Zhenhua Xue</h1>
+          <p class="hero-role">After Effects Script Developer</p>
+          <p class="hero-specialty">Workflow Automation Tools for Motion Designers</p>
+          <p class="hero-description">I build practical workflow automation tools for Adobe After Effects, focused on reducing repetitive work and improving production efficiency.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#tools">View AE Tools <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="mailto:yangzhousb@gmail.com">Contact Me</a>
+          </div>
+          <div class="hero-stack" aria-label="Core technologies">
+            <span>ExtendScript</span>
+            <span>ScriptUI</span>
+            <span>AE Automation</span>
+          </div>
+        </div>
+
+        <div class="tool-window reveal" aria-label="Stylized preview of an After Effects automation tool interface">
+          <div class="window-bar">
+            <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span class="window-title">Preview Queue Manager</span>
+            <span class="window-version">v0.8</span>
+          </div>
+          <div class="window-body">
+            <aside class="window-sidebar" aria-hidden="true">
+              <span class="side-icon active"></span>
+              <span class="side-icon"></span>
+              <span class="side-icon"></span>
+              <span class="side-icon"></span>
+            </aside>
+            <div class="window-content">
+              <div class="panel-heading">
+                <div><small>ACTIVE COMPOSITION</small><strong>Product_Preview_01</strong></div>
+                <span class="live-pill">READY</span>
+              </div>
+              <div class="preview-canvas" aria-hidden="true">
+                <div class="canvas-grid"></div>
+                <div class="canvas-object object-one"></div>
+                <div class="canvas-object object-two"></div>
+                <div class="canvas-target"><span>PREVIEW 01</span></div>
+                <div class="timeline-line"></div>
+              </div>
+              <div class="queue-heading"><span>PROCESSING QUEUE</span><span>3 items</span></div>
+              <div class="queue-list">
+                <div class="queue-item complete"><span class="queue-number">01</span><span>Build preview block</span><i>Done</i></div>
+                <div class="queue-item active"><span class="queue-number">02</span><span>Apply layer settings</span><i>Running</i></div>
+                <div class="queue-item"><span class="queue-number">03</span><span>Prepare output</span><i>Waiting</i></div>
+              </div>
+              <div class="window-actions" aria-hidden="true"><span>Clear</span><span class="run-button">Run Queue <i>▶</i></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="about" aria-labelledby="about-title">
+      <div class="container split-heading reveal">
+        <div>
+          <p class="section-index">01 / About</p>
+          <h2 id="about-title">About Me</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I am an independent developer focused on creating scripts, utilities, and workflow automation tools for Adobe After Effects.</p>
+          <p>My work focuses on solving repetitive production problems, simplifying complex workflows, and building practical tools for motion designers, editors, and content creators.</p>
+          <p>I am especially interested in automation, ScriptUI interfaces, layer management, composition workflows, and procedural content generation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section section-shell" id="tools" aria-labelledby="tools-title">
+      <div class="container">
+        <div class="section-heading tools-heading reveal">
+          <p class="section-index">02 / Selected Work</p>
+          <h2 id="tools-title">Featured After Effects Tools</h2>
+          <p>A selection of scripts and workflow tools I have developed for Adobe After Effects.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal" data-project="preview-queue-manager">
+            <div class="project-topline">
+              <span class="project-number">01</span>
+              <span class="status-badge status-development">In Development</span>
+            </div>
+            <div class="project-media-grid">
+              <div class="media-block">
+                <span class="media-label">Interface Preview</span>
+                <div class="media-frame image-frame">
+                  <!-- REPLACE WITH YOUR AE SCREENSHOT -->
+                  <img class="js-media-image" src="assets/images/tool-01.jpg" alt="Preview Queue Manager interface screenshot" hidden>
+                  <div class="media-placeholder image-placeholder">
+                    <div class="placeholder-ui" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+                    <strong>AE Tool Screenshot</strong>
+                    <small>assets/images/tool-01.jpg</small>
+                  </div>
+                </div>
+              </div>
+              <div class="media-block media-block-video">
+                <span class="media-label">Demo Video</span>
+                <div class="media-frame video-frame">
+                  <!-- REPLACE WITH YOUR DEMO VIDEO -->
+                  <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Preview Queue Manager demo video">
+                    <source src="assets/videos/tool-01.mp4" type="video/mp4">
+                  </video>
+                  <div class="media-placeholder video-placeholder"><span class="play-icon" aria-hidden="true">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/tool-01.mp4</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-intro">
+                <p class="project-kicker">Queue &amp; Preview Automation</p>
+                <h3>Preview Queue Manager</h3>
+                <p class="project-description">An After Effects workflow automation tool designed to generate preview blocks and manage queued processing operations.</p>
+                <button class="text-button view-details" type="button">View Details <span aria-hidden="true">↗</span></button>
+              </div>
+              <div class="project-specs">
+                <div class="spec-group">
+                  <h4>Main Features</h4>
+                  <ul class="feature-list">
+                    <li>Automated preview block generation</li><li>Queue-based task processing</li><li>Composition and layer automation</li><li>Preview workflow management</li><li>Repetitive operation reduction</li><li>Improved production efficiency</li>
+                  </ul>
+                </div>
+                <div class="spec-group">
+                  <h4>Technologies</h4>
+                  <div class="tag-list"><span>ExtendScript</span><span>JavaScript</span><span>ScriptUI</span><span>After Effects Automation</span></div>
+                </div>
+                <div class="spec-group development-note">
+                  <h4>Development Notes</h4>
+                  <p>Designed to improve workflows where multiple preview elements need to be generated and processed in sequence.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="procedural-shape-generator">
+            <div class="project-topline">
+              <span class="project-number">02</span>
+              <span class="status-badge status-prototype">Prototype</span>
+            </div>
+            <div class="project-media-grid">
+              <div class="media-block">
+                <span class="media-label">Interface Preview</span>
+                <div class="media-frame image-frame">
+                  <!-- REPLACE WITH YOUR AE SCREENSHOT -->
+                  <img class="js-media-image" src="assets/images/tool-02.jpg" alt="Procedural Shape Generator interface screenshot" hidden>
+                  <div class="media-placeholder image-placeholder">
+                    <div class="placeholder-shapes" aria-hidden="true"><span></span><span></span><span></span></div>
+                    <strong>AE Tool Screenshot</strong><small>assets/images/tool-02.jpg</small>
+                  </div>
+                </div>
+              </div>
+              <div class="media-block media-block-video">
+                <span class="media-label">Demo Video</span>
+                <div class="media-frame video-frame">
+                  <!-- REPLACE WITH YOUR DEMO VIDEO -->
+                  <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Procedural Shape Generator demo video">
+                    <source src="assets/videos/tool-02.mp4" type="video/mp4">
+                  </video>
+                  <div class="media-placeholder video-placeholder"><span class="play-icon" aria-hidden="true">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/tool-02.mp4</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-intro">
+                <p class="project-kicker">Procedural Content</p>
+                <h3>Procedural Shape Generator</h3>
+                <p class="project-description">A procedural shape generation utility for After Effects that automates shape creation and visual property assignment.</p>
+                <button class="text-button view-details" type="button">View Details <span aria-hidden="true">↗</span></button>
+              </div>
+              <div class="project-specs">
+                <div class="spec-group"><h4>Main Features</h4><ul class="feature-list"><li>Automated shape creation</li><li>Randomized visual properties</li><li>Parameter-based controls</li><li>Batch generation</li><li>Color variation</li><li>Layer automation</li></ul></div>
+                <div class="spec-group"><h4>Technologies</h4><div class="tag-list"><span>ExtendScript</span><span>JavaScript</span><span>After Effects Shape Layers</span><span>Automation</span></div></div>
+                <div class="spec-group development-note"><h4>Development Notes</h4><p>Explores flexible parameter controls for generating varied shape-layer systems while keeping results editable.</p></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="ae-workflow-utilities">
+            <div class="project-topline">
+              <span class="project-number">03</span>
+              <span class="status-badge status-ongoing">Ongoing Development</span>
+            </div>
+            <div class="project-media-grid">
+              <div class="media-block">
+                <span class="media-label">Interface Preview</span>
+                <div class="media-frame image-frame">
+                  <!-- REPLACE WITH YOUR AE SCREENSHOT -->
+                  <img class="js-media-image" src="assets/images/tool-03.jpg" alt="AE Workflow Utilities interface screenshot" hidden>
+                  <div class="media-placeholder image-placeholder">
+                    <div class="placeholder-layers" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+                    <strong>AE Tool Screenshot</strong><small>assets/images/tool-03.jpg</small>
+                  </div>
+                </div>
+              </div>
+              <div class="media-block media-block-video">
+                <span class="media-label">Demo Video</span>
+                <div class="media-frame video-frame">
+                  <!-- REPLACE WITH YOUR DEMO VIDEO -->
+                  <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="AE Workflow Utilities demo video">
+                    <source src="assets/videos/tool-03.mp4" type="video/mp4">
+                  </video>
+                  <div class="media-placeholder video-placeholder"><span class="play-icon" aria-hidden="true">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/tool-03.mp4</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-intro">
+                <p class="project-kicker">Everyday Productivity</p>
+                <h3>AE Workflow Utilities</h3>
+                <p class="project-description">A collection of small productivity tools designed to reduce repetitive operations inside After Effects.</p>
+                <button class="text-button view-details" type="button">View Details <span aria-hidden="true">↗</span></button>
+              </div>
+              <div class="project-specs">
+                <div class="spec-group"><h4>Main Features</h4><ul class="feature-list"><li>Layer management</li><li>Composition automation</li><li>Batch operations</li><li>Workflow shortcuts</li><li>Repetitive task automation</li></ul></div>
+                <div class="spec-group"><h4>Technologies</h4><div class="tag-list"><span>ExtendScript</span><span>JavaScript</span><span>ScriptUI</span></div></div>
+                <div class="spec-group development-note"><h4>Development Notes</h4><p>Built as an evolving utility set, with each tool focused on one clear production bottleneck.</p></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="demos section-shell" id="demos" aria-labelledby="demos-title">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-index">03 / In Action</p><h2 id="demos-title">Tool Demos</h2><p>Short demonstrations of scripts running inside real After Effects workflows.</p></div>
+        <div class="demo-grid">
+          <article class="demo-card reveal">
+            <div class="demo-video media-frame video-frame">
+              <!-- REPLACE WITH YOUR DEMO VIDEO -->
+              <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Preview automation demo"><source src="assets/videos/demo-01.mp4" type="video/mp4"></video>
+              <div class="media-placeholder video-placeholder"><span class="play-icon">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/demo-01.mp4</small></div>
+            </div>
+            <div class="demo-caption"><span>01</span><h3>Preview Automation</h3></div>
+          </article>
+          <article class="demo-card reveal">
+            <div class="demo-video media-frame video-frame">
+              <!-- REPLACE WITH YOUR DEMO VIDEO -->
+              <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Procedural generation demo"><source src="assets/videos/demo-02.mp4" type="video/mp4"></video>
+              <div class="media-placeholder video-placeholder"><span class="play-icon">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/demo-02.mp4</small></div>
+            </div>
+            <div class="demo-caption"><span>02</span><h3>Procedural Generation</h3></div>
+          </article>
+          <article class="demo-card reveal">
+            <div class="demo-video media-frame video-frame">
+              <!-- REPLACE WITH YOUR DEMO VIDEO -->
+              <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Batch workflow demo"><source src="assets/videos/demo-03.mp4" type="video/mp4"></video>
+              <div class="media-placeholder video-placeholder"><span class="play-icon">▶</span><strong>Demo Coming Soon</strong><small>assets/videos/demo-03.mp4</small></div>
+            </div>
+            <div class="demo-caption"><span>03</span><h3>Batch Workflow</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus section-shell" aria-labelledby="focus-title">
+      <div class="container focus-layout reveal">
+        <div><p class="section-index">04 / Capabilities</p><h2 id="focus-title">Development Focus</h2></div>
+        <div class="focus-tags" aria-label="Development focus areas">
+          <span>After Effects</span><span>ExtendScript</span><span>JavaScript</span><span>ScriptUI</span><span>Workflow Automation</span><span>Motion Design Tools</span><span>Creative Software</span><span>Procedural Generation</span><span>Batch Processing</span><span>UI Tool Development</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section-shell" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-index">05 / Process</p><h2 id="process-title">How I Build AE Tools</h2></div>
+        <ol class="process-grid">
+          <li class="process-step reveal"><span class="step-number">01</span><div class="step-icon" aria-hidden="true">⌖</div><h3>Identify Workflow Problems</h3><p>Find repetitive or inefficient tasks inside After Effects.</p></li>
+          <li class="process-step reveal"><span class="step-number">02</span><div class="step-icon" aria-hidden="true">⌘</div><h3>Design Automation Logic</h3><p>Create practical automation workflows and processing logic.</p></li>
+          <li class="process-step reveal"><span class="step-number">03</span><div class="step-icon" aria-hidden="true">{ }</div><h3>Build the Tool</h3><p>Develop scripts, interfaces, and workflow controls.</p></li>
+          <li class="process-step reveal"><span class="step-number">04</span><div class="step-icon" aria-hidden="true">✓</div><h3>Test in Production</h3><p>Test tools in real production scenarios and refine usability.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="development section-shell" aria-labelledby="development-title">
+      <div class="container development-panel reveal">
+        <div class="development-orbit" aria-hidden="true"><span></span><span></span><i></i></div>
+        <div class="development-copy">
+          <p class="section-index">06 / Roadmap</p>
+          <h2 id="development-title">Products in Development</h2>
+          <p>I am currently developing commercial After Effects tools for motion designers, editors, and content creators.</p>
+          <p>My goal is to build tools that are practical, lightweight, easy to understand, and useful in real production workflows.</p>
+          <div class="coming-soon"><span class="status-dot"></span> More tools coming soon.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-panel reveal">
+        <p class="section-index">07 / Contact</p>
+        <div class="contact-grid">
+          <div><h2 id="contact-title">Contact</h2><p class="contact-statement">Let’s build better<br>AE workflows.</p></div>
+          <div class="contact-details"><p class="contact-name">Zhenhua Xue</p><p>After Effects Script Developer</p><a class="email-link" href="mailto:yangzhousb@gmail.com">yangzhousb@gmail.com</a><a class="button button-primary" href="mailto:yangzhousb@gmail.com">Send Email <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><p>© 2026 Zhenhua Xue</p><p>Independent After Effects Tool Developer</p><a href="#top" aria-label="Back to top">Back to top ↑</a></div>
+  </footer>
+
+  <div class="modal" id="tool-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="document">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close project details">×</button>
+      <div class="modal-scroll">
+        <div class="modal-header"><div><p class="project-kicker" id="modal-kicker"></p><h2 id="modal-title"></h2></div><span class="status-badge" id="modal-status"></span></div>
+        <div class="modal-media-grid">
+          <div><span class="media-label">Interface Preview</span><div class="media-frame image-frame" id="modal-image-frame"><img id="modal-image" alt="" hidden><div class="media-placeholder image-placeholder"><div class="placeholder-ui" aria-hidden="true"><span></span><span></span><span></span><i></i></div><strong>AE Tool Screenshot</strong><small id="modal-image-path"></small></div></div></div>
+          <div><span class="media-label">Demo Video</span><div class="media-frame video-frame" id="modal-video-frame"><video id="modal-video" controls preload="metadata" playsinline hidden><source id="modal-video-source" type="video/mp4"></video><div class="media-placeholder video-placeholder"><span class="play-icon">▶</span><strong>Demo Coming Soon</strong><small id="modal-video-path"></small></div></div></div>
+        </div>
+        <div class="modal-content-grid"><div><h3>Full Description</h3><p id="modal-description"></p><div class="modal-notes"><h3>Development Notes</h3><p id="modal-notes"></p></div></div><div><h3>Main Features</h3><ul class="feature-list" id="modal-features"></ul><h3>Technologies</h3><div class="tag-list" id="modal-technologies"></div></div></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

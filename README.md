@@ -150,6 +150,27 @@ Keep videos concise, remove sensitive client content, and show the input, action
 
 The **View Details** modal reads content directly from each project card, so no additional JavaScript data needs to be added.
 
+## 9. English / Simplified Chinese support
+
+The site displays English by default. Visitors can switch between **EN** and **中文** from the navigation bar. Their selection is saved in browser `localStorage` under the key `language`, so it remains active after a refresh.
+
+All translatable content is marked with `data-i18n` attributes in `index.html` and managed in the `translations` object near the top of `script.js`. Product names and technology names remain in English in both languages.
+
+When adding a new project:
+
+1. Add a unique `data-i18n` key to each new translatable text element.
+2. Add matching English and Chinese values to `translations.en` and `translations.zh` in `script.js`.
+3. Keep product names such as `Preview Queue Manager` and technology names such as `ExtendScript` unchanged.
+4. Test the project card and its **View Details** modal in both languages.
+
+To reset the saved language while testing, open the browser console and run:
+
+```javascript
+localStorage.removeItem("language");
+```
+
+Then refresh the page; it will return to English.
+
 ## Before sharing with aescripts + aeplugins
 
 - Replace the screenshot placeholders with clear images of your real tools.
@@ -166,5 +187,6 @@ The **View Details** modal reads content directly from each project card, so no 
 - The page works by opening `index.html` directly.
 - JavaScript is progressively enhanced: core content remains visible even if JavaScript is unavailable.
 - Missing image and video files are handled by visual fallback components.
+- English is the default language, with a persistent Simplified Chinese option powered by `localStorage`.
 - No React, Next.js, Node.js, PHP, database, server API, or third-party runtime is used.
 - The site uses system fonts, so it does not wait for external font downloads.

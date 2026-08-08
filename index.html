@@ -72,7 +72,7 @@
         <div class="tool-window reveal" aria-label="Stylized preview of an After Effects automation tool interface" data-i18n-aria-label="toolWindowLabel">
           <div class="window-bar">
             <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-            <span class="window-title">Preview Queue Manager</span>
+            <span class="window-title">Puzzle Animation Generator</span>
             <span class="window-version">v0.8</span>
           </div>
           <div class="window-body">
@@ -84,23 +84,23 @@
             </aside>
             <div class="window-content">
               <div class="panel-heading">
-                <div><small data-i18n="activeComposition">ACTIVE COMPOSITION</small><strong>Product_Preview_01</strong></div>
+                <div><small data-i18n="activeComposition">ACTIVE PUZZLE PROJECT</small><strong>Puzzle_Board_01</strong></div>
                 <span class="live-pill" data-i18n="ready">READY</span>
               </div>
               <div class="preview-canvas" aria-hidden="true">
                 <div class="canvas-grid"></div>
                 <div class="canvas-object object-one"></div>
                 <div class="canvas-object object-two"></div>
-                <div class="canvas-target"><span data-i18n="previewOne">PREVIEW 01</span></div>
+                <div class="canvas-target"><span data-i18n="previewOne">PUZZLE BOARD</span></div>
                 <div class="timeline-line"></div>
               </div>
-              <div class="queue-heading"><span data-i18n="processingQueue">PROCESSING QUEUE</span><span data-i18n="threeItems">3 items</span></div>
+              <div class="queue-heading"><span data-i18n="processingQueue">PUZZLE ACTIONS</span><span data-i18n="threeItems">3 actions</span></div>
               <div class="queue-list">
-                <div class="queue-item complete"><span class="queue-number">01</span><span data-i18n="buildPreviewBlock">Build preview block</span><i data-i18n="done">Done</i></div>
-                <div class="queue-item active"><span class="queue-number">02</span><span data-i18n="applyLayerSettings">Apply layer settings</span><i data-i18n="running">Running</i></div>
-                <div class="queue-item"><span class="queue-number">03</span><span data-i18n="prepareOutput">Prepare output</span><i data-i18n="waiting">Waiting</i></div>
+                <div class="queue-item complete"><span class="queue-number">01</span><span data-i18n="buildPreviewBlock">Generate puzzle pieces</span><i data-i18n="done">Done</i></div>
+                <div class="queue-item active"><span class="queue-number">02</span><span data-i18n="applyLayerSettings">Shuffle puzzle</span><i data-i18n="running">Running</i></div>
+                <div class="queue-item"><span class="queue-number">03</span><span data-i18n="prepareOutput">Auto solve animation</span><i data-i18n="waiting">Waiting</i></div>
               </div>
-              <div class="window-actions" aria-hidden="true"><span data-i18n="clear">Clear</span><span class="run-button"><span data-i18n="runQueue">Run Queue</span> <i>▶</i></span></div>
+              <div class="window-actions" aria-hidden="true"><span data-i18n="clear">Reset</span><span class="run-button"><span data-i18n="runQueue">Run Demo</span> <i>▶</i></span></div>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
         </div>
 
         <div class="project-list">
-          <article class="project-card reveal" data-project="preview-queue-manager">
+          <article class="project-card reveal" data-project="puzzle-animation-generator">
             <div class="project-topline">
               <span class="project-number">01</span>
               <span class="status-badge status-development" data-i18n="statusInDevelopment">In Development</span>
@@ -140,7 +140,7 @@
                 <span class="media-label" data-i18n="interfacePreview">Interface Preview</span>
                 <div class="media-frame image-frame">
                   <!-- REPLACE WITH YOUR AE SCREENSHOT -->
-                  <img class="js-media-image" src="assets/images/tool-01.jpg" alt="Preview Queue Manager interface screenshot" data-i18n-alt="p1ImageAlt" hidden>
+                  <img class="js-media-image" src="assets/images/tool-01.jpg" alt="Puzzle Animation Generator interface screenshot" data-i18n-alt="p1ImageAlt" hidden>
                   <div class="media-placeholder image-placeholder">
                     <div class="placeholder-ui" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
                     <strong data-i18n="aeToolScreenshot">AE Tool Screenshot</strong>
@@ -152,7 +152,7 @@
                 <span class="media-label" data-i18n="demoVideo">Demo Video</span>
                 <div class="media-frame video-frame">
                   <!-- REPLACE WITH YOUR DEMO VIDEO -->
-                  <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Preview Queue Manager demo video" data-i18n-aria-label="p1VideoLabel">
+                  <video class="js-media-video" controls preload="metadata" playsinline hidden aria-label="Puzzle Animation Generator demo video" data-i18n-aria-label="p1VideoLabel">
                     <source src="assets/videos/tool-01.mp4" type="video/mp4">
                   </video>
                   <div class="media-placeholder video-placeholder"><span class="play-icon" aria-hidden="true">▶</span><strong data-i18n="demoComingSoon">Demo Coming Soon</strong><small>assets/videos/tool-01.mp4</small></div>
@@ -161,16 +161,16 @@
             </div>
             <div class="project-content">
               <div class="project-intro">
-                <p class="project-kicker" data-i18n="p1Kicker">Queue &amp; Preview Automation</p>
-                <h3>Preview Queue Manager</h3>
-                <p class="project-description" data-i18n="p1Description">An After Effects workflow automation tool designed to generate preview blocks and manage queued processing operations.</p>
+                <p class="project-kicker" data-i18n="p1Kicker">Procedural Puzzle Animation</p>
+                <h3>Puzzle Animation Generator</h3>
+                <p class="project-description" data-i18n="p1Description">An After Effects automation tool that generates customizable puzzle projects from source images, with procedural piece layouts, shape-aware swapping, and automated solve animations.</p>
                 <button class="text-button view-details" type="button"><span data-i18n="viewDetails">View Details</span> <span aria-hidden="true">↗</span></button>
               </div>
               <div class="project-specs">
                 <div class="spec-group">
                   <h4 data-i18n="mainFeatures">Main Features</h4>
                   <ul class="feature-list">
-                    <li data-i18n="p1Feature1">Automated preview block generation</li><li data-i18n="p1Feature2">Queue-based task processing</li><li data-i18n="p1Feature3">Composition and layer automation</li><li data-i18n="p1Feature4">Preview workflow management</li><li data-i18n="p1Feature5">Repetitive operation reduction</li><li data-i18n="p1Feature6">Improved production efficiency</li>
+                    <li data-i18n="p1Feature1">Procedural puzzle project generation</li><li data-i18n="p1Feature2">Polygon and neat-grid split modes</li><li data-i18n="p1Feature3">Straight edges and classic jigsaw tabs</li><li data-i18n="p1Feature4">Reproducible layouts with random seeds</li><li data-i18n="p1Feature5">Image source replacement with automatic updates</li><li data-i18n="p1Feature6">Shuffle, shape swap, auto solve, and auto demo</li>
                   </ul>
                 </div>
                 <div class="spec-group">
@@ -179,7 +179,7 @@
                 </div>
                 <div class="spec-group development-note">
                   <h4 data-i18n="developmentNotes">Development Notes</h4>
-                  <p data-i18n="p1Notes">Designed to improve workflows where multiple preview elements need to be generated and processed in sequence.</p>
+                  <p data-i18n="p1Notes">Built as a self-contained ExtendScript tool with a bilingual ScriptUI panel. It creates editable compositions, masked puzzle-piece layers, reproducible layouts, configurable animation timing, hand-gesture tracks, and swap audio for structured puzzle-animation sequences.</p>
                 </div>
               </div>
             </div>

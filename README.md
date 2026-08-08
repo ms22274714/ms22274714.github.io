@@ -13,11 +13,11 @@ A fast, responsive, single-page portfolio for presenting After Effects scripts a
 └── assets/
     ├── images/
     │   ├── favicon.svg
-    │   ├── tool-01.jpg       # Preview Queue Manager screenshot
+    │   ├── tool-01.jpg       # Puzzle Animation Generator screenshot
     │   ├── tool-02.jpg       # Procedural Shape Generator screenshot
     │   └── tool-03.jpg       # AE Workflow Utilities screenshot
     └── videos/
-        ├── tool-01.mp4       # Preview Queue Manager card/detail demo
+        ├── tool-01.mp4       # Puzzle Animation Generator card/detail demo
         ├── tool-02.mp4       # Procedural Shape Generator card/detail demo
         ├── tool-03.mp4       # AE Workflow Utilities card/detail demo
         ├── demo-01.mp4       # Tool Demos section, item 1
@@ -160,7 +160,7 @@ When adding a new project:
 
 1. Add a unique `data-i18n` key to each new translatable text element.
 2. Add matching English and Chinese values to `translations.en` and `translations.zh` in `script.js`.
-3. Keep product names such as `Preview Queue Manager` and technology names such as `ExtendScript` unchanged.
+3. Keep product names such as `Puzzle Animation Generator` and technology names such as `ExtendScript` unchanged.
 4. Test the project card and its **View Details** modal in both languages.
 
 To reset the saved language while testing, open the browser console and run:

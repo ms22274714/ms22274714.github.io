@@ -27,19 +27,35 @@
       contactMe: "Contact Me",
       coreTechnologies: "Core technologies",
       toolWindowLabel: "Stylized preview of an After Effects automation tool interface",
-      activeComposition: "ACTIVE PUZZLE PROJECT",
+      projectPreviewSelector: "Project preview selector",
+      selectProjectPreview: "Preview project: ",
+      viewProjectPrefix: "View project: ",
+      activeComposition: "ACTIVE PROJECT",
       ready: "READY",
       previewOne: "PUZZLE BOARD",
-      processingQueue: "PUZZLE ACTIONS",
-      threeItems: "3 actions",
-      buildPreviewBlock: "Generate puzzle pieces",
+      processingQueue: "AUTOMATED WORKFLOW",
+      threeItems: "3 stages",
+      buildPreviewBlock: "Split Source Image",
       done: "Done",
-      applyLayerSettings: "Shuffle puzzle",
+      applyLayerSettings: "Generate Puzzle Animation",
       running: "Running",
-      prepareOutput: "Auto solve animation",
+      prepareOutput: "Organize Pieces into Editable Comps",
+      heroP2Stage1: "Set Generation Parameters",
+      heroP2Stage2: "Generate Shape Layers",
+      heroP2Stage3: "Apply Visual Variations",
+      heroP3Stage1: "Select Layers or Compositions",
+      heroP3Stage2: "Run Batch Automation",
+      heroP3Stage3: "Review Editable Results",
       waiting: "Waiting",
-      clear: "Reset",
-      runQueue: "Run Demo",
+      clear: "Stop",
+      runQueue: "Play Demo",
+      pauseDemo: "Pause Demo",
+      paused: "PAUSED",
+      enableSound: "Enable Sound",
+      muteSound: "Mute",
+      heroDemoLoading: "Loading Workflow Demo",
+      heroDemoUnavailable: "Demo Video Not Found",
+      heroDemoVideoLabel: "Puzzle Animation Generator workflow demo",
       aboutIndex: "01 / About",
       aboutTitle: "About Me",
       aboutLead: "I am an independent developer focused on creating scripts, utilities, and workflow automation tools for Adobe After Effects.",
@@ -60,15 +76,15 @@
       technologies: "Technologies",
       developmentNotes: "Development Notes",
       fullDescription: "Full Description",
-      p1Kicker: "Procedural Puzzle Animation",
-      p1Description: "An After Effects automation tool that generates customizable puzzle projects from source images, with procedural piece layouts, shape-aware swapping, and automated solve animations.",
-      p1Feature1: "Procedural puzzle project generation",
-      p1Feature2: "Polygon and neat-grid split modes",
-      p1Feature3: "Straight edges and classic jigsaw tabs",
-      p1Feature4: "Reproducible layouts with random seeds",
-      p1Feature5: "Image source replacement with automatic updates",
-      p1Feature6: "Shuffle, shape swap, auto solve, and auto demo",
-      p1Notes: "Built as a self-contained ExtendScript tool with a bilingual ScriptUI panel. It creates editable compositions, masked puzzle-piece layers, reproducible layouts, configurable animation timing, hand-gesture tracks, and swap audio for structured puzzle-animation sequences.",
+      p1Kicker: "Fully Automated Puzzle Animation",
+      p1Description: "A fully automated After Effects tool that turns source images into complete puzzle animations—including puzzle generation, shuffle and solve sequences, animated hand interactions, timing, and swap audio.",
+      p1Feature1: "One-click, end-to-end puzzle animation generation",
+      p1Feature2: "Automated hand animation and interaction paths",
+      p1Feature3: "Automatic shuffle, shape matching, and solve sequences",
+      p1Feature4: "Polygon, neat-grid, straight-edge, and jigsaw-tab options",
+      p1Feature5: "Reproducible layouts with random seeds",
+      p1Feature6: "Replaceable image sources and configurable animation timing",
+      p1Notes: "The tool automates the core puzzle-animation workflow rather than only generating puzzle pieces. From a source image, it builds the puzzle layers, shuffle and solve animation, hand movement, interaction tracks, timing, and swap audio. It also separates and packages piece layers into clearly organized editable compositions, making it easy to locate the corresponding layer and manually add styles or effects.",
       p1ImageAlt: "Puzzle Animation Generator interface screenshot",
       p1VideoLabel: "Puzzle Animation Generator demo video",
       p2Kicker: "Procedural Content",
@@ -160,19 +176,35 @@
       contactMe: "联系我",
       coreTechnologies: "核心技术",
       toolWindowLabel: "After Effects 自动化工具界面示意",
-      activeComposition: "当前拼图项目",
+      projectPreviewSelector: "项目预览选择器",
+      selectProjectPreview: "预览项目：",
+      viewProjectPrefix: "查看项目：",
+      activeComposition: "当前项目",
       ready: "就绪",
       previewOne: "拼图画板",
-      processingQueue: "拼图操作",
-      threeItems: "3 项操作",
-      buildPreviewBlock: "生成拼图块",
+      processingQueue: "全自动工作流",
+      threeItems: "3 个阶段",
+      buildPreviewBlock: "拆分源图片",
       done: "已完成",
-      applyLayerSettings: "打乱拼图",
+      applyLayerSettings: "自动生成拼图动画",
       running: "处理中",
-      prepareOutput: "自动还原动画",
+      prepareOutput: "将碎片整理为可编辑合成",
+      heroP2Stage1: "设置生成参数",
+      heroP2Stage2: "生成形状图层",
+      heroP2Stage3: "应用视觉变化",
+      heroP3Stage1: "选择图层或合成",
+      heroP3Stage2: "运行批量自动化",
+      heroP3Stage3: "检查可编辑结果",
       waiting: "等待中",
-      clear: "重置",
-      runQueue: "运行演示",
+      clear: "停止播放",
+      runQueue: "播放演示",
+      pauseDemo: "暂停演示",
+      paused: "已暂停",
+      enableSound: "开启声音",
+      muteSound: "静音",
+      heroDemoLoading: "正在加载工作流演示",
+      heroDemoUnavailable: "未找到演示视频",
+      heroDemoVideoLabel: "Puzzle Animation Generator 工作流演示视频",
       aboutIndex: "01 / 关于",
       aboutTitle: "关于我",
       aboutLead: "我是一名独立开发者，专注于为 Adobe After Effects 创建脚本、实用工具和工作流自动化方案。",
@@ -193,15 +225,15 @@
       technologies: "开发技术",
       developmentNotes: "开发说明",
       fullDescription: "详细介绍",
-      p1Kicker: "程序化拼图动画",
-      p1Description: "一款面向 After Effects 的拼图动画自动化工具，可从图片源生成可定制的拼图项目，并提供程序化拼块布局、形状匹配交换和自动还原动画。",
-      p1Feature1: "程序化生成拼图项目",
-      p1Feature2: "多边形与整齐网格拆分模式",
-      p1Feature3: "直边与经典拼图齿边缘",
-      p1Feature4: "支持随机种子的可复现布局",
-      p1Feature5: "替换图片源后自动更新",
-      p1Feature6: "打乱、形状交换、自动还原与自动演示",
-      p1Notes: "采用单文件 ExtendScript 与中英文 ScriptUI 面板开发。工具会生成可编辑合成、蒙版拼块图层和可复现布局，并提供可配置的动画节奏、手势轨迹与交换音效，用于快速构建完整、有节奏的拼图动画序列。",
+      p1Kicker: "全自动拼图动画生成",
+      p1Description: "一款全自动 After Effects 工具，可将图片源直接转换为完整的拼图动画，包括拼图生成、打乱与还原流程、手部交互动画、时间节奏和交换音效。",
+      p1Feature1: "一键生成完整拼图动画",
+      p1Feature2: "自动生成手部动画与交互轨迹",
+      p1Feature3: "自动完成打乱、形状匹配与还原流程",
+      p1Feature4: "支持多边形、整齐网格、直边与经典拼图齿",
+      p1Feature5: "支持随机种子的可复现布局",
+      p1Feature6: "支持替换图片源和配置动画时间",
+      p1Notes: "这款工具自动完成的不只是拼图块生成，而是拼图动画的核心制作流程。导入图片后，它会创建拼图图层、打乱与还原动画、手部移动、交互轨迹、动画节奏和交换音效；同时将碎片图层拆分并整理到结构清晰的可编辑合成中，方便创作者快速找到对应图层，再手动添加样式或特效。",
       p1ImageAlt: "Puzzle Animation Generator 界面截图",
       p1VideoLabel: "Puzzle Animation Generator 演示视频",
       p2Kicker: "程序化内容生成",
@@ -279,9 +311,60 @@
   const modal = document.getElementById("tool-modal");
   const modalDialog = modal.querySelector(".modal-dialog");
   const modalClose = modal.querySelector(".modal-close");
+  const heroDemoWindow = document.querySelector(".tool-window");
+  const heroDemoButton = document.querySelector(".hero-demo-button");
+  const heroDemoReset = document.querySelector(".demo-reset-button");
+  const heroDemoItems = heroDemoWindow.querySelectorAll(".queue-item");
+  const heroDemoStatus = heroDemoWindow.querySelector(".live-pill");
+  const heroDemoMedia = heroDemoWindow.querySelector(".hero-demo-media");
+  const heroDemoVideo = heroDemoWindow.querySelector(".hero-demo-video");
+  const heroDemoSource = heroDemoWindow.querySelector(".hero-demo-source");
+  const heroDemoFallback = heroDemoWindow.querySelector(".hero-demo-fallback strong");
+  const heroDemoFallbackPath = heroDemoWindow.querySelector(".hero-demo-fallback small");
+  const heroSoundButton = heroDemoWindow.querySelector(".hero-sound-button");
+  const heroSoundIcon = heroSoundButton.querySelector(".sound-icon");
+  const heroSoundLabel = heroSoundButton.querySelector(".sound-label");
+  const heroDemoButtonLabel = heroDemoButton.querySelector(".demo-button-label");
+  const heroDemoButtonIcon = heroDemoButton.querySelector(".demo-button-icon");
+  const heroProjectTitleLink = heroDemoWindow.querySelector(".hero-project-title-link");
+  const heroVideoProjectLink = heroDemoWindow.querySelector(".hero-video-project-link");
+  const heroProjectName = heroDemoWindow.querySelector(".hero-project-name");
+  const heroStageLabels = heroDemoWindow.querySelectorAll(".stage-label");
+  const heroProjectSelectors = heroDemoWindow.querySelectorAll(".side-icon[data-preview-index]");
+  const heroProjectPreviews = [
+    {
+      title: "Puzzle Animation Generator",
+      projectId: "puzzle-animation-generator",
+      compositionName: "Puzzle_Board_01",
+      videoPath: "assets/videos/hero-demo.mp4",
+      duration: 15,
+      stageKeys: ["buildPreviewBlock", "applyLayerSettings", "prepareOutput"]
+    },
+    {
+      title: "Procedural Shape Generator",
+      projectId: "procedural-shape-generator",
+      compositionName: "Shape_Generator_02",
+      videoPath: "assets/videos/tool-02.mp4",
+      duration: null,
+      stageKeys: ["heroP2Stage1", "heroP2Stage2", "heroP2Stage3"]
+    },
+    {
+      title: "AE Workflow Utilities",
+      projectId: "ae-workflow-utilities",
+      compositionName: "Workflow_Utilities_03",
+      videoPath: "assets/videos/tool-03.mp4",
+      duration: null,
+      stageKeys: ["heroP3Stage1", "heroP3Stage2", "heroP3Stage3"]
+    }
+  ];
   let currentLanguage = "en";
   let currentModalCard = null;
   let lastFocusedElement = null;
+  let heroDemoAvailable = false;
+  let activeHeroProjectIndex = 0;
+  let heroDemoDuration = 15;
+  let heroDemoStageDuration = 5;
+  let heroDemoShouldAutoplay = true;
 
   document.body.classList.add("motion-ready");
 
@@ -319,6 +402,148 @@
     });
   }
 
+  function clamp(value, minimum, maximum) {
+    return Math.min(Math.max(value, minimum), maximum);
+  }
+
+  function updateHeroDemoButton() {
+    const translationKey = heroDemoVideo.paused ? "runQueue" : "pauseDemo";
+    heroDemoButtonLabel.textContent = translate(translationKey);
+    heroDemoButtonIcon.textContent = heroDemoVideo.paused ? "▶" : "Ⅱ";
+  }
+
+  function updateHeroSoundButton() {
+    const soundEnabled = !heroDemoVideo.muted;
+    heroSoundButton.setAttribute("aria-pressed", String(soundEnabled));
+    heroSoundIcon.textContent = soundEnabled ? "🔊" : "🔇";
+    heroSoundLabel.textContent = translate(soundEnabled ? "muteSound" : "enableSound");
+  }
+
+  function syncHeroDemoFromTime() {
+    const currentTime = clamp(heroDemoVideo.currentTime || 0, 0, heroDemoDuration);
+    const isFinished = heroDemoVideo.ended || currentTime >= heroDemoDuration - 0.05;
+    const hasStarted = currentTime > 0 || !heroDemoVideo.paused;
+    const activeStage = isFinished ? 4 : hasStarted ? Math.min(3, Math.floor(currentTime / heroDemoStageDuration) + 1) : 0;
+
+    heroDemoItems.forEach(function (item, index) {
+      const stageStart = index * heroDemoStageDuration;
+      const progress = clamp((currentTime - stageStart) / heroDemoStageDuration, 0, 1);
+      const isComplete = isFinished || progress >= 1;
+      const isActive = !isFinished && activeStage === index + 1;
+      item.classList.toggle("complete", isComplete);
+      item.classList.toggle("active", isActive);
+      item.querySelector(".stage-progress").style.setProperty("--stage-progress", (progress * 100).toFixed(2) + "%");
+      item.querySelector("i").textContent = translate(isComplete ? "done" : isActive ? "running" : "waiting");
+    });
+
+    heroDemoWindow.dataset.demoStage = isFinished ? "complete" : String(activeStage);
+    heroDemoStatus.textContent = translate(!heroDemoVideo.paused && !isFinished ? "running" : currentTime > 0 && !isFinished ? "paused" : "ready");
+    updateHeroDemoButton();
+  }
+
+  function markHeroDemoReady() {
+    const preview = heroProjectPreviews[activeHeroProjectIndex];
+    heroDemoDuration = preview.duration || (Number.isFinite(heroDemoVideo.duration) && heroDemoVideo.duration > 0 ? heroDemoVideo.duration : 15);
+    heroDemoStageDuration = heroDemoDuration / 3;
+    heroDemoAvailable = true;
+    heroDemoMedia.classList.add("is-ready");
+    heroDemoButton.disabled = false;
+    heroSoundButton.disabled = false;
+    syncHeroDemoFromTime();
+    if (heroDemoShouldAutoplay) {
+      heroDemoShouldAutoplay = false;
+      heroDemoVideo.play().catch(function () { syncHeroDemoFromTime(); });
+    }
+  }
+
+  function markHeroDemoUnavailable() {
+    heroDemoAvailable = false;
+    heroDemoMedia.classList.remove("is-ready");
+    heroDemoButton.disabled = true;
+    heroSoundButton.disabled = true;
+    heroDemoFallback.dataset.i18n = "heroDemoUnavailable";
+    heroDemoFallback.textContent = translate("heroDemoUnavailable");
+    syncHeroDemoFromTime();
+  }
+
+  function stopHeroDemo() {
+    if (!heroDemoAvailable) return;
+    heroDemoVideo.pause();
+    heroDemoVideo.currentTime = 0;
+    syncHeroDemoFromTime();
+  }
+
+  function toggleHeroDemoPlayback() {
+    if (!heroDemoAvailable) return;
+    if (!heroDemoVideo.paused) {
+      heroDemoVideo.pause();
+      return;
+    }
+    if (heroDemoVideo.ended || heroDemoVideo.currentTime >= heroDemoDuration - 0.05) {
+      heroDemoVideo.currentTime = 0;
+    }
+    heroDemoVideo.play().catch(function () { syncHeroDemoFromTime(); });
+  }
+
+  function toggleHeroDemoSound() {
+    heroDemoVideo.muted = !heroDemoVideo.muted;
+    updateHeroSoundButton();
+  }
+
+  function updateHeroProjectText() {
+    const preview = heroProjectPreviews[activeHeroProjectIndex];
+    const projectLink = "#" + preview.projectId;
+    const viewLabel = translate("viewProjectPrefix") + preview.title;
+
+    heroDemoWindow.dataset.projectTarget = preview.projectId;
+    heroProjectTitleLink.textContent = preview.title;
+    heroProjectTitleLink.href = projectLink;
+    heroProjectTitleLink.setAttribute("aria-label", viewLabel);
+    heroVideoProjectLink.href = projectLink;
+    heroVideoProjectLink.setAttribute("aria-label", viewLabel);
+    heroDemoVideo.setAttribute("aria-label", preview.title + " " + translate("demoVideoSuffix"));
+    heroProjectName.textContent = preview.compositionName;
+
+    heroStageLabels.forEach(function (label, index) {
+      const key = preview.stageKeys[index];
+      label.dataset.i18n = key;
+      label.textContent = translate(key);
+    });
+
+    heroProjectSelectors.forEach(function (button, index) {
+      const isActive = index === activeHeroProjectIndex;
+      const projectTitle = heroProjectPreviews[index].title;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+      button.setAttribute("aria-label", translate("selectProjectPreview") + projectTitle);
+      button.title = projectTitle;
+    });
+  }
+
+  function selectHeroProject(index) {
+    if (!heroProjectPreviews[index]) return;
+    activeHeroProjectIndex = index;
+    const preview = heroProjectPreviews[index];
+
+    heroDemoVideo.pause();
+    heroDemoAvailable = false;
+    heroDemoShouldAutoplay = true;
+    heroDemoDuration = preview.duration || 15;
+    heroDemoStageDuration = heroDemoDuration / 3;
+    heroDemoMedia.classList.remove("is-ready");
+    heroDemoButton.disabled = true;
+    heroSoundButton.disabled = true;
+    heroDemoFallback.dataset.i18n = "heroDemoLoading";
+    heroDemoFallback.textContent = translate("heroDemoLoading");
+    heroDemoFallbackPath.textContent = preview.videoPath;
+    heroDemoVideo.muted = true;
+    heroDemoSource.src = preview.videoPath;
+    updateHeroProjectText();
+    updateHeroSoundButton();
+    heroDemoVideo.load();
+    syncHeroDemoFromTime();
+  }
+
   function applyTranslations(language, shouldSave) {
     currentLanguage = supportedLanguages.includes(language) ? language : "en";
     document.documentElement.lang = currentLanguage === "zh" ? "zh-CN" : "en";
@@ -345,6 +570,9 @@
 
     updateLanguageButtons();
     updateNavToggleLabel();
+    updateHeroProjectText();
+    syncHeroDemoFromTime();
+    updateHeroSoundButton();
 
     if (currentModalCard && !modal.hidden) populateModal(currentModalCard, false);
     if (shouldSave) saveLanguage(currentLanguage);
@@ -355,6 +583,24 @@
       applyTranslations(button.dataset.language, true);
     });
   });
+
+  heroDemoButton.addEventListener("click", toggleHeroDemoPlayback);
+  heroDemoReset.addEventListener("click", stopHeroDemo);
+  heroSoundButton.addEventListener("click", toggleHeroDemoSound);
+  heroProjectSelectors.forEach(function (button) {
+    button.addEventListener("click", function () {
+      selectHeroProject(Number(button.dataset.previewIndex));
+    });
+  });
+  heroDemoVideo.addEventListener("loadedmetadata", markHeroDemoReady);
+  heroDemoVideo.addEventListener("canplay", markHeroDemoReady);
+  heroDemoVideo.addEventListener("timeupdate", syncHeroDemoFromTime);
+  heroDemoVideo.addEventListener("play", syncHeroDemoFromTime);
+  heroDemoVideo.addEventListener("pause", syncHeroDemoFromTime);
+  heroDemoVideo.addEventListener("ended", syncHeroDemoFromTime);
+  heroDemoVideo.addEventListener("error", markHeroDemoUnavailable);
+
+  selectHeroProject(0);
 
   function updateHeader() {
     header.classList.toggle("scrolled", window.scrollY > 24);

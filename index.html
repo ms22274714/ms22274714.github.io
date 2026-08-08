@@ -69,38 +69,48 @@
           </div>
         </div>
 
-        <div class="tool-window reveal" aria-label="Stylized preview of an After Effects automation tool interface" data-i18n-aria-label="toolWindowLabel">
+        <div class="tool-window reveal" data-project-target="puzzle-animation-generator" aria-label="Stylized preview of an After Effects automation tool interface" data-i18n-aria-label="toolWindowLabel">
           <div class="window-bar">
             <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-            <span class="window-title">Puzzle Animation Generator</span>
+            <a class="window-title hero-project-title-link" href="#puzzle-animation-generator" aria-label="View project: Puzzle Animation Generator">Puzzle Animation Generator</a>
             <span class="window-version">v0.8</span>
           </div>
           <div class="window-body">
-            <aside class="window-sidebar" aria-hidden="true">
-              <span class="side-icon active"></span>
-              <span class="side-icon"></span>
-              <span class="side-icon"></span>
-              <span class="side-icon"></span>
-            </aside>
+            <nav class="window-sidebar" aria-label="Project preview selector" data-i18n-aria-label="projectPreviewSelector">
+              <button class="side-icon active" type="button" data-preview-index="0" aria-pressed="true" aria-label="Preview Puzzle Animation Generator"></button>
+              <button class="side-icon" type="button" data-preview-index="1" aria-pressed="false" aria-label="Preview Procedural Shape Generator"></button>
+              <button class="side-icon" type="button" data-preview-index="2" aria-pressed="false" aria-label="Preview AE Workflow Utilities"></button>
+            </nav>
             <div class="window-content">
               <div class="panel-heading">
-                <div><small data-i18n="activeComposition">ACTIVE PUZZLE PROJECT</small><strong>Puzzle_Board_01</strong></div>
+                <div><small data-i18n="activeComposition">ACTIVE PROJECT</small><strong class="hero-project-name">Puzzle_Board_01</strong></div>
                 <span class="live-pill" data-i18n="ready">READY</span>
               </div>
-              <div class="preview-canvas" aria-hidden="true">
-                <div class="canvas-grid"></div>
-                <div class="canvas-object object-one"></div>
-                <div class="canvas-object object-two"></div>
-                <div class="canvas-target"><span data-i18n="previewOne">PUZZLE BOARD</span></div>
-                <div class="timeline-line"></div>
+              <div class="preview-canvas hero-demo-media">
+                <!-- REPLACE WITH YOUR 15-SECOND HERO DEMO VIDEO -->
+                <video class="hero-demo-video" preload="metadata" autoplay muted loop playsinline aria-label="Puzzle Animation Generator workflow demo">
+                  <source class="hero-demo-source" src="assets/videos/hero-demo.mp4" type="video/mp4">
+                </video>
+                <div class="hero-demo-fallback">
+                  <strong data-i18n="heroDemoLoading">Loading Workflow Demo</strong>
+                  <small>assets/videos/hero-demo.mp4</small>
+                </div>
+                <a class="hero-video-project-link" href="#puzzle-animation-generator" aria-label="View project: Puzzle Animation Generator"></a>
+                <button class="hero-sound-button" type="button" aria-pressed="false">
+                  <span class="sound-icon" aria-hidden="true">🔇</span>
+                  <span class="sound-label" data-i18n="enableSound">Enable Sound</span>
+                </button>
               </div>
-              <div class="queue-heading"><span data-i18n="processingQueue">PUZZLE ACTIONS</span><span data-i18n="threeItems">3 actions</span></div>
+              <div class="queue-heading"><span data-i18n="processingQueue">AUTOMATED WORKFLOW</span><span data-i18n="threeItems">3 stages</span></div>
               <div class="queue-list">
-                <div class="queue-item complete"><span class="queue-number">01</span><span data-i18n="buildPreviewBlock">Generate puzzle pieces</span><i data-i18n="done">Done</i></div>
-                <div class="queue-item active"><span class="queue-number">02</span><span data-i18n="applyLayerSettings">Shuffle puzzle</span><i data-i18n="running">Running</i></div>
-                <div class="queue-item"><span class="queue-number">03</span><span data-i18n="prepareOutput">Auto solve animation</span><i data-i18n="waiting">Waiting</i></div>
+                <div class="queue-item"><span class="queue-number">01</span><span class="stage-label" data-i18n="buildPreviewBlock">Split Source Image</span><i data-i18n="waiting">Waiting</i><span class="stage-progress" aria-hidden="true"><span></span></span></div>
+                <div class="queue-item"><span class="queue-number">02</span><span class="stage-label" data-i18n="applyLayerSettings">Generate Puzzle Animation</span><i data-i18n="waiting">Waiting</i><span class="stage-progress" aria-hidden="true"><span></span></span></div>
+                <div class="queue-item"><span class="queue-number">03</span><span class="stage-label" data-i18n="prepareOutput">Organize Pieces into Editable Comps</span><i data-i18n="waiting">Waiting</i><span class="stage-progress" aria-hidden="true"><span></span></span></div>
               </div>
-              <div class="window-actions" aria-hidden="true"><span data-i18n="clear">Reset</span><span class="run-button"><span data-i18n="runQueue">Run Demo</span> <i>▶</i></span></div>
+              <div class="window-actions">
+                <button class="demo-reset-button" type="button" data-i18n="clear">Stop</button>
+                <button class="run-button hero-demo-button" type="button"><span class="demo-button-label" data-i18n="runQueue">Play Demo</span> <i class="demo-button-icon" aria-hidden="true">▶</i></button>
+              </div>
             </div>
           </div>
         </div>
@@ -130,7 +140,7 @@
         </div>
 
         <div class="project-list">
-          <article class="project-card reveal" data-project="puzzle-animation-generator">
+          <article class="project-card reveal" id="puzzle-animation-generator" data-project="puzzle-animation-generator">
             <div class="project-topline">
               <span class="project-number">01</span>
               <span class="status-badge status-development" data-i18n="statusInDevelopment">In Development</span>
@@ -161,16 +171,16 @@
             </div>
             <div class="project-content">
               <div class="project-intro">
-                <p class="project-kicker" data-i18n="p1Kicker">Procedural Puzzle Animation</p>
+                <p class="project-kicker" data-i18n="p1Kicker">Fully Automated Puzzle Animation</p>
                 <h3>Puzzle Animation Generator</h3>
-                <p class="project-description" data-i18n="p1Description">An After Effects automation tool that generates customizable puzzle projects from source images, with procedural piece layouts, shape-aware swapping, and automated solve animations.</p>
+                <p class="project-description" data-i18n="p1Description">A fully automated After Effects tool that turns source images into complete puzzle animations—including puzzle generation, shuffle and solve sequences, animated hand interactions, timing, and swap audio.</p>
                 <button class="text-button view-details" type="button"><span data-i18n="viewDetails">View Details</span> <span aria-hidden="true">↗</span></button>
               </div>
               <div class="project-specs">
                 <div class="spec-group">
                   <h4 data-i18n="mainFeatures">Main Features</h4>
                   <ul class="feature-list">
-                    <li data-i18n="p1Feature1">Procedural puzzle project generation</li><li data-i18n="p1Feature2">Polygon and neat-grid split modes</li><li data-i18n="p1Feature3">Straight edges and classic jigsaw tabs</li><li data-i18n="p1Feature4">Reproducible layouts with random seeds</li><li data-i18n="p1Feature5">Image source replacement with automatic updates</li><li data-i18n="p1Feature6">Shuffle, shape swap, auto solve, and auto demo</li>
+                    <li data-i18n="p1Feature1">One-click, end-to-end puzzle animation generation</li><li data-i18n="p1Feature2">Automated hand animation and interaction paths</li><li data-i18n="p1Feature3">Automatic shuffle, shape matching, and solve sequences</li><li data-i18n="p1Feature4">Polygon, neat-grid, straight-edge, and jigsaw-tab options</li><li data-i18n="p1Feature5">Reproducible layouts with random seeds</li><li data-i18n="p1Feature6">Replaceable image sources and configurable animation timing</li>
                   </ul>
                 </div>
                 <div class="spec-group">
@@ -179,13 +189,13 @@
                 </div>
                 <div class="spec-group development-note">
                   <h4 data-i18n="developmentNotes">Development Notes</h4>
-                  <p data-i18n="p1Notes">Built as a self-contained ExtendScript tool with a bilingual ScriptUI panel. It creates editable compositions, masked puzzle-piece layers, reproducible layouts, configurable animation timing, hand-gesture tracks, and swap audio for structured puzzle-animation sequences.</p>
+                  <p data-i18n="p1Notes">The tool automates the core puzzle-animation workflow rather than only generating puzzle pieces. From a source image, it builds the puzzle layers, shuffle and solve animation, hand movement, interaction tracks, timing, and swap audio. It also separates and packages piece layers into clearly organized editable compositions, making it easy to locate the corresponding layer and manually add styles or effects.</p>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="project-card reveal" data-project="procedural-shape-generator">
+          <article class="project-card reveal" id="procedural-shape-generator" data-project="procedural-shape-generator">
             <div class="project-topline">
               <span class="project-number">02</span>
               <span class="status-badge status-prototype" data-i18n="statusPrototype">Prototype</span>
@@ -228,7 +238,7 @@
             </div>
           </article>
 
-          <article class="project-card reveal" data-project="ae-workflow-utilities">
+          <article class="project-card reveal" id="ae-workflow-utilities" data-project="ae-workflow-utilities">
             <div class="project-topline">
               <span class="project-number">03</span>
               <span class="status-badge status-ongoing" data-i18n="statusOngoing">Ongoing Development</span>

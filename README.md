@@ -17,6 +17,7 @@ A fast, responsive, single-page portfolio for presenting After Effects scripts a
     │   ├── tool-02.jpg       # Procedural Shape Generator screenshot
     │   └── tool-03.jpg       # AE Workflow Utilities screenshot
     └── videos/
+        ├── hero-demo.mp4     # 15-second homepage workflow demo (3 × 5-second stages)
         ├── tool-01.mp4       # Puzzle Animation Generator card/detail demo
         ├── tool-02.mp4       # Procedural Shape Generator card/detail demo
         ├── tool-03.mp4       # AE Workflow Utilities card/detail demo
@@ -124,6 +125,10 @@ Do not start the path with `/` and do not use a Windows drive path such as `C:\.
 ## 7. Update demo videos
 
 Place MP4 videos in `assets/videos/` using the filenames shown in the project structure. H.264 MP4 is recommended for broad browser compatibility and reasonable file size.
+
+The homepage workflow player uses `assets/videos/hero-demo.mp4`. It is synchronized to three fixed five-second stages: 0–5 seconds splits the source image, 5–10 seconds generates the puzzle animation, and 10–15 seconds organizes piece layers into clearly structured editable compositions. Styles and effects shown during the third segment are added manually by the creator; the script prepares the composition structure so the corresponding layers are easy to locate. The selected preview loops automatically and starts muted so browser autoplay can work. Visitors can enable the original audio, pause or resume playback, or use the Stop button to pause and return to the beginning.
+
+The three square buttons on the left side of the homepage preview select `Puzzle Animation Generator`, `Procedural Shape Generator`, and `AE Workflow Utilities`. Their preview videos are `hero-demo.mp4`, `tool-02.mp4`, and `tool-03.mp4`. Selecting a square changes the preview; clicking the current project title or video opens the matching project section below. If `tool-02.mp4` or `tool-03.mp4` is missing, the preview displays a fallback instead of a broken video.
 
 To use different filenames, search `index.html` for:
 
